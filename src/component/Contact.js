@@ -22,25 +22,25 @@ const Contact = () =>{
                         </div>
                         <div className="Content">
                             <img src={require('../Images/behance.png')} />
-                            <p>Email address</p>
+                            <p>Gihan Chamika</p>
                         </div>
                         <div className="Content">
                             <img src={require('../Images/phone.png')} />
-                            <p>Email address</p>
+                            <p>+94 76 5796 528</p>
                         </div>
                     </div>
                     <div className="right">
                         <div className="Content">
-                            <img src={require('../Images/mail.png')} />
-                            <p>gihancjayasekara@gmail.com</p>
+                            <img src={require('../Images/linkedin.png')} />
+                            <p>Gihan Chamika</p>
                         </div>
                         <div className="Content">
-                            <img src={require('../Images/behance.png')} />
-                            <p>Email address</p>
+                            <img src={require('../Images/github.png')} />
+                            <p>Gihan Chamika</p>
                         </div>
                         <div className="Content">
-                            <img src={require('../Images/phone.png')} />
-                            <p>Email address</p>
+                            <img src={require('../Images/facebook.png')} />
+                            <p>Gihan Chamika</p>
                         </div>
                 </div>
             </div>

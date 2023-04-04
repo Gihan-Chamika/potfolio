@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+
 }
 
 .SkillsTitle h2{
@@ -14,6 +15,7 @@
     color: #FF8303;
     text-align: center;
     margin-bottom: -50px;
+
 }
 
 .SkillsContent{
@@ -54,6 +56,7 @@
 
 .SkillListTitle{
     text-align: left;
+
 }
 
 .SkillListTitle h4{
@@ -84,4 +87,21 @@
     display:flex;
     flex-direction: row;
     padding-top: 25px;
+}
+
+.Skills{
+    animation: load 2s ease-out;
+}
+
+@keyframes load{
+    0%{
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+
 }

@@ -9,20 +9,24 @@ import './Header.css';
 const Header = () => {
     return (
         <div className="HeaderGroup">
+
             <div className="HeaderImage">
                 <img src={require('../Images/Logo.png')} />
             </div>
             <div className="HeaderTitle">
                <ul className="list">
-                    <li>ABOUT </li>
+                    <li >ABOUT </li>
                     <li>SKILLS</li>
                     <li>EDUCATION</li>
                     <li>PROJECTS</li>
                     <li>CONTACT</li>
                 </ul>
             </div>
+            
         </div>
     )
 }
+
+
 
 export default Header;

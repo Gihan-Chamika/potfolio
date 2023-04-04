@@ -1,16 +1,23 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './Skills.css'
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 const Skills = () =>{
+
+    useEffect(() => {
+        Aos.init({duration: 1000});
+    },[])
+
     return(
         <div className="Skills">
             <div className="SkillsTitle">
-                <h2>Skills</h2>
+                <h2 data-aos="fade-down" >Skills</h2>
             </div>
             
             <div className="SkillsContent">
 
-                <div className="Rectangle">
+                <div data-aos="fade-right" className="Rectangle">
                     <h3>Design</h3>
                     <div className="RectangleGroup">
                         <div className="SkillList">      
@@ -57,7 +64,7 @@ const Skills = () =>{
                 </div>
 
                 
-                <div className="Rectangle">
+                <div data-aos="fade-up" className="Rectangle">
                     <h3>Develop</h3>
 
                     <div className="RectangleGroup">
@@ -105,7 +112,7 @@ const Skills = () =>{
                 </div>
 
 
-                <div className="Rectangle">
+                <div data-aos="fade-left" className="Rectangle">
                     <h3>Post production</h3>
 
                     <div className="RectangleGroup">

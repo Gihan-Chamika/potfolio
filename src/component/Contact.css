@@ -86,7 +86,7 @@
     
 }
 
-.Content img{
+.Content img{ 
     display: flex;
     flex-direction: row;
     height: 64px;

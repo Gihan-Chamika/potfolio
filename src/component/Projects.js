@@ -1,16 +1,22 @@
 import React from 'react';
 import './Projects.css';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+
 
 const Projects = () =>{
+
+    
+
     return(
         <div className="Projects">
             <div className="ProjectTitle">
-                <h2>Projects</h2>
+                <h2 data-aos="fade-down" >Projects</h2>
             </div>
             
             <div className="ProjectContent">
 
-                <div className="Rectangle">
+                <div data-aos="fade-left"  className="Rectangle">
                     <h3>Design</h3>
                     <div className="RectangleGroup">
                         <div className="ProjectList">      
@@ -57,7 +63,7 @@ const Projects = () =>{
                 </div>
 
                 
-                <div className="Rectangle">
+                <div data-aos="fade-up"  className="Rectangle">
                     <h3>Develop</h3>
 
                     <div className="RectangleGroup">
@@ -97,7 +103,7 @@ const Projects = () =>{
                 </div>
 
 
-                <div className="Rectangle">
+                <div data-aos="fade-right" className="Rectangle">
                     <h3>Post production</h3>
 
                     <div className="RectangleGroup">

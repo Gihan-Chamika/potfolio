@@ -10,6 +10,8 @@
     justify-content:space-between;
     z-index: 5;
     padding: 110px 120px;
+    animation: load 2s ease-out;
+    transition-delay: 1s;
 }
 
 .HeroImage{
@@ -94,4 +96,19 @@
     border-radius: 100%;
     background: #F0E3CA;
     transform: rotate(150.97deg);
+}
+
+
+
+@keyframes load{
+    0%{
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+
 }

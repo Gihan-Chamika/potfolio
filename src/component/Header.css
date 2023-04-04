@@ -51,3 +51,18 @@ body{
     font-family: 'Poppins', sans-serif;
     list-style: none;
 }
+
+.list li:hover
+{
+    color: #FF8303;
+    transition: 0.5s;
+    cursor: pointer;
+    transform: translateY(-5px);
+    transition-timing-function: cubic-bezier(2, 1, 2, 1);
+}
+
+.list li:active{
+    position: relative;
+    color: #FF8303;
+    
+}

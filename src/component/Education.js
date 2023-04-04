@@ -1,5 +1,7 @@
 import React from 'react';
 import './Education.css';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 const Education = () =>{
     return(
@@ -14,20 +16,20 @@ const Education = () =>{
                 <text className="text5">Present</text>
             </div>
 
-            <div className="OlSchool">
+            <div data-aos="fade-right"  className="OlSchool">
                 <div className="OlLine"/>
                 <text className="text1">I studied at Sri Sangamiththa M.V Ragama,<br/>
                                         faced Ordinary Level Examination in 2015.<br/>
                                         I achieved 3”A”s, 4”B”s, 1”C” and 1”S”.</text>
                 
             </div>
-            <div className="Esoft">
+            <div data-aos="fade-right"  className="Esoft">
                 <div className="EsostLine"/>
                 <text className="text2">Completed “Diploma in ICT” in<br/>
                                         “E-soft metro campus” in Ja-ela.<br/></text>
 
             </div>
-            <div className="AlSchool">
+            <div data-aos="fade-right"  className="AlSchool">
                 <div className="AlSchoolLine"/>
                 <text className="text3">I studied at <br/>
                                         Sri Pangnananda National Collage Raddoluwa,<br/>
@@ -35,7 +37,7 @@ const Education = () =>{
                                         I achieved 3”B”s.<br/><br/></text>
 
             </div>
-            <div className="Uni">
+            <div data-aos="fade-right"  className="Uni">
                 <div className="UniLine"/>
                 <text className="text4">I,m studing at University of <br/>
                                         Sri Jayewardhenapura, focusing 
