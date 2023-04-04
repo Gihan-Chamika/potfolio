@@ -10,12 +10,13 @@ const Skills = () =>{
     },[])
 
     return(
-        <div className="Skills">
+        
+        <div  id="skill" className="Skills">
             <div className="SkillsTitle">
-                <h2 data-aos="fade-down" >Skills</h2>
+                <h2  data-aos="fade-down" >Skills</h2>
             </div>
             
-            <div className="SkillsContent">
+            <div  className="SkillsContent">
 
                 <div data-aos="fade-right" className="Rectangle">
                     <h3>Design</h3>

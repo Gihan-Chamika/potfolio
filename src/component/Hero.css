@@ -71,6 +71,7 @@
     color: #F0E3CA;
     margin:50px 0px;
     border: none;    
+    transition: 0.7s;
 }
 
 
@@ -96,6 +97,14 @@
     border-radius: 100%;
     background: #F0E3CA;
     transform: rotate(150.97deg);
+}
+
+.DownloadCV:hover{
+    background: #F0E3CA;
+    color: #FF8303;
+    transform: translateY(-5px);
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+
 }
 
 

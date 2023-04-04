@@ -2,6 +2,7 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -35,6 +36,15 @@ body{
     align-items: center;
 }
 
+.HeaderGroup a{
+    text-decoration: none;
+    color: #F0E3CA;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    transition: 0.7s;
+}
+
 .HeaderGroup img{
     margin-top: 5px;
     padding: 5px 100px;
@@ -50,15 +60,16 @@ body{
     color: #F0E3CA;
     font-family: 'Poppins', sans-serif;
     list-style: none;
+    transition: 0.7s;
 }
 
-.list li:hover
+.list a:hover
 {
     color: #FF8303;
     transition: 0.5s;
     cursor: pointer;
     transform: translateY(-5px);
-    transition-timing-function: cubic-bezier(2, 1, 2, 1);
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 .list li:active{
@@ -66,3 +77,9 @@ body{
     color: #FF8303;
     
 }
+.list li:focus{
+    position: relative;
+    color: #110e5d;
+    
+}
+

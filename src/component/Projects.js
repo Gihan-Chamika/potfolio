@@ -9,7 +9,7 @@ const Projects = () =>{
     
 
     return(
-        <div className="Projects">
+        <div id="project" className="Projects">
             <div className="ProjectTitle">
                 <h2 data-aos="fade-down" >Projects</h2>
             </div>

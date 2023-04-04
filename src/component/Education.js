@@ -5,7 +5,7 @@ import 'aos/dist/aos.css';
 
 const Education = () =>{
     return(
-        <div className="EducationGrup">
+        <div id="education" className="EducationGrup">
             <h2>Education</h2>        
             <div className="EducationContent">
                 <div className="line"/> 
