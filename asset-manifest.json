@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Gihan-Chamika/potfolio/static/css/main.941507d6.css",
-    "main.js": "/Gihan-Chamika/potfolio/static/js/main.98c9e0bb.js",
-    "static/js/787.63434964.chunk.js": "/Gihan-Chamika/potfolio/static/js/787.63434964.chunk.js",
-    "static/media/i7.png": "/Gihan-Chamika/potfolio/static/media/i7.07fbe560bc4a4726a930.png",
-    "index.html": "/Gihan-Chamika/potfolio/index.html",
-    "main.941507d6.css.map": "/Gihan-Chamika/potfolio/static/css/main.941507d6.css.map",
-    "main.98c9e0bb.js.map": "/Gihan-Chamika/potfolio/static/js/main.98c9e0bb.js.map",
-    "787.63434964.chunk.js.map": "/Gihan-Chamika/potfolio/static/js/787.63434964.chunk.js.map"
+    "main.css": "/potfolio/static/css/main.941507d6.css",
+    "main.js": "/potfolio/static/js/main.b7390e5c.js",
+    "static/js/787.63434964.chunk.js": "/potfolio/static/js/787.63434964.chunk.js",
+    "static/media/i7.png": "/potfolio/static/media/i7.07fbe560bc4a4726a930.png",
+    "index.html": "/potfolio/index.html",
+    "main.941507d6.css.map": "/potfolio/static/css/main.941507d6.css.map",
+    "main.b7390e5c.js.map": "/potfolio/static/js/main.b7390e5c.js.map",
+    "787.63434964.chunk.js.map": "/potfolio/static/js/787.63434964.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.941507d6.css",
-    "static/js/main.98c9e0bb.js"
+    "static/js/main.b7390e5c.js"
   ]
 }
