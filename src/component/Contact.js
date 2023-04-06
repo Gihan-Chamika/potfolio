@@ -1,8 +1,14 @@
 import React from 'react';
 import './Contact.css';
 
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+</style>
+
 const Contact = () =>{
     return(
+        
         <div id="contact" className="Contact">
             <h2>Contact Me</h2>
             <div className="ContactGroup">
@@ -18,11 +24,11 @@ const Contact = () =>{
                     <div clsaname = "Center">
                         <div className="Content">
                             <img src={require('../Images/mail.png')} />
-                            <p>gihancjayasekara@gmail.com</p>
+                            <p><a href="mailto:gihancjayasekara@gmail.com">gihancjayasekara@gmail.com</a></p>
                         </div>
                         <div className="Content">
                             <img src={require('../Images/behance.png')} />
-                            <p>Gihan Chamika</p>
+                            <p><a href="https://www.behance.net/gihancjayasek">Gihan Chamika</a></p>
                         </div>
                         <div className="Content">
                             <img src={require('../Images/phone.png')} />
@@ -32,15 +38,15 @@ const Contact = () =>{
                     <div className="right">
                         <div className="Content">
                             <img src={require('../Images/linkedin.png')} />
-                            <p>Gihan Chamika</p>
+                            <p><a href="https://www.linkedin.com/in/gihan-chamika-604311260">Gihan Chamika</a></p>
                         </div>
                         <div className="Content">
                             <img src={require('../Images/github.png')} />
-                            <p>Gihan Chamika</p>
+                            <p><a href="https://github.com/Gihan-Chamika">Gihan Chamika</a></p>
                         </div>
                         <div className="Content">
                             <img src={require('../Images/facebook.png')} />
-                            <p>Gihan Chamika</p>
+                            <p><a href="https://www.facebook.com/gihan.chamika.79?mibextid=ZbWKwL">Gihan Chamika</a></p>
                         </div>
                 </div>
             </div>

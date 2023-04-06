@@ -3,6 +3,11 @@ import './Education.css';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+</style>
+
+
 const Education = () =>{
     return(
         <div id="education" className="EducationGrup">

@@ -2,10 +2,6 @@ import React from 'react';
 import './Header.css';
 import './Header.css';
 
-<style>
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
-</style>
-
 
 const Header = () => {
 
@@ -27,21 +23,6 @@ const Header = () => {
                 </ul>
             </div>
 
-            {/* <script type="text/javascript">
-                var marker = document.querySelector('#marker');
-                var item = document.querySelectorAll('li');
-
-                function indicator(e) 
-                    marker.style.left = e.offsetLeft + "px";
-                    marker.style.width = e.offsetwidth + "px";
-                
-
-                item.forEach(link => {
-                    link.addEventListener('click' , (e) => {
-                        indicator(e.target);
-                    })
-                })
-            </script> */}
             
         </div>
         

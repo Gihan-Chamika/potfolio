@@ -105,3 +105,34 @@
     }
 
 }
+
+@media (min-width:720px) and (max-width:1199px){
+    .SkillsContent{
+        padding: 100px 80px;
+    }
+    .Rectangle{
+        position: relative;
+        width: 284px;
+        height: 540px;
+    }
+    }
+    .Rectangle h3{
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .SkillListTitle h4{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .SkillListTitle p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .SkillList img{
+        width: 48px;
+    }
+    .SkillsTitle h2{
+        font-size: 48px;
+        line-height: 40px;
+    }
+

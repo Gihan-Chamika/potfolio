@@ -1,6 +1,12 @@
 import React from 'react';
 import './Hero.css';
 
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+</style>
+
+
 const Hero = () =>{
     return(
             <div id="about" className="HeroGroup">
@@ -9,9 +15,8 @@ const Hero = () =>{
                     <h1>Gihan Chamika</h1>
                     <p>I am a passionate UI/UX designer and developer. <br/>
                         I specialize in creating user-friendly interface <br/>
-                        for web and mobile applications.<br/>
-                        <br/>
-                        As well as an expertise in post-production.<br/>
+                        for web and mobile applications.</p><br/>
+                       <p> As well as an expertise in post-production.<br/>
                         I find great joy in taking raw footage <br/>
                         and transforming it into compelling stories <br/>
                         through the art of video editing.</p>

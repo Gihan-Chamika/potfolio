@@ -103,7 +103,7 @@
     align-items: center;
 }
 
-.Content p{
+.Content a, p{
     display: flex;
     flex-direction: row;
     font-family: 'Poppins';
@@ -112,8 +112,8 @@
     font-size: 18px;
     line-height: 30px;
     color: #F0E3CA;
-    /* text-align: left; */
-
+    text-decoration: none;
+    cursor: pointer;
 }
 
 
