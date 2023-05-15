@@ -16,7 +16,7 @@ const Contact = () =>{
                     <img src={require('../Images/Logo.png')} />
                     <p>If you liked my work and you need me.<br/>
                         let's work together to create something grate.</p>
-                    <button className="DownloadCV">DOWNLOAD CV</button>
+                    <button className="DownloadCV"><a href="https://drive.google.com/file/d/173P7R455N33IUZe6bftAFbPo2CE5hB9v/view?usp=share_link">DOWNLOAD CV</a></button>
                     <text>© Gihan Chamika. All rights reserved. 2023</text>
                         
                 </div>

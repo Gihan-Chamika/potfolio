@@ -79,6 +79,23 @@
     transition: 0.7s;
 }
 
+.HeroGroup button a{
+
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    color: #F0E3CA;   
+    transition: 0.7s;
+}
+
+.HeroGroup button a:hover{
+
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    color: #FF8303;   
+    transition: 0.7s;
+}
 
 .circle1{
     position: relative;

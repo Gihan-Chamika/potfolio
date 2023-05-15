@@ -28,7 +28,7 @@ const Projects = () =>{
                             <img src={require('../Images/FOODSHA.png')}/>
                         </div>
                         <div className="ProjectListTitle">
-                            <h4>FoodSha App</h4>
+                            <h4><a href="https://www.figma.com/file/rzuE4l33gUdpLQaQjHRPBv/Untitled?type=design&node-id=0%3A1&t=LomWQLI7Sn4kaPnH-1"> FoodSha App</a></h4>
                             <p>Wireframe & UI in figma</p>  
                         </div>           
                     </div>
@@ -39,7 +39,7 @@ const Projects = () =>{
                             <img src={require('../Images/FOODSHA.png')}/>
                         </div>
                         <div className="ProjectListTitle">
-                            <h4>FoodSha Web</h4>
+                            <h4><a href="https://www.figma.com/file/gmBVcQDUSuD86JtyjNaLo5/3rd?type=design&t=LomWQLI7Sn4kaPnH-1">FoodSha Web</a></h4>
                             <p>UI in figma</p>  
                         </div>           
                     </div>
@@ -50,7 +50,7 @@ const Projects = () =>{
                             <img src={require('../Images/portfolio.png')}/>
                         </div>
                         <div className="ProjectListTitle">
-                            <h4>Portfolio</h4>
+                            <h4><a href="https://www.figma.com/file/D24nuYkKoiiDSQGmxP0Fup/portfolio?type=design&t=LomWQLI7Sn4kaPnH-1">Portfolio</a></h4>
                             <p>UI in figma</p>  
                         </div>           
                     </div>
@@ -76,7 +76,7 @@ const Projects = () =>{
                             <img src={require('../Images/FOODSHA.png')}/>
                         </div>
                         <div className="ProjectListTitle">
-                            <h4>FoodSha Web</h4>
+                            <h4><a href="https://github.com/Gihan-Chamika/Foodsha-web.git">FoodSha Web</a></h4>
                             <p>Front-end using react</p>  
                         </div>           
                     </div>
@@ -87,7 +87,7 @@ const Projects = () =>{
                             <img src={require('../Images/portfolio.png')}/>
                         </div>
                         <div className="ProjectListTitle">
-                            <h4>Portfolio</h4>
+                            <h4><a href="https://github.com/Gihan-Chamika/portfolio.github.io.git">Portfolio</a></h4>
                             <p>Developed using react</p>  
                         </div>           
                     </div>
@@ -116,7 +116,7 @@ const Projects = () =>{
                             <img src={require('../Images/addiction.png')}/>
                         </div>
                         <div className="ProjectListTitle">
-                            <h4>Addiction</h4>
+                            <h4><a href="https://youtu.be/jArkC5c-lWM">Addiction</a></h4>
                             <p>Camera and edit</p>  
                         </div>           
                     </div>

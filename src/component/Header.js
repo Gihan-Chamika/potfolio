@@ -5,8 +5,6 @@ import './Header.css';
 
 const Header = () => {
 
-   
-
     return (
         <div className="HeaderGroup">
 
@@ -21,14 +19,10 @@ const Header = () => {
                     <li><a href="#project">PROJECTS</a></li>
                     <li><a href="#contact">CONTACT</a></li>
                 </ul>
-            </div>
-
-            
+            </div>  
         </div>
         
     )
 }
-
-
 
 export default Header;
